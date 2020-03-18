@@ -1,0 +1,8 @@
+{
+	"actions":[
+		{
+			"name": "changeState",
+			"args": ["light", "off"]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"goals":[
+		{
+			"object": "apple",
+			"target": "fridge",
+			"state": "",
+			"position": "",
+			"tolerance": 0
+		}
+	],
+	"text": "Apple in fridge."
+}

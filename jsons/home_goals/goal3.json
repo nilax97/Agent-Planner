@@ -1,0 +1,33 @@
+{
+	"goals":[
+		{
+			"object": "apple",
+			"target": "fridge",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "orange",
+			"target": "fridge",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "banana",
+			"target": "fridge",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "fridge",
+			"target": "",
+			"state": "close",
+			"position": "",
+			"tolerance": 0
+		}
+	],
+	"text": "Put all the fruits inside the fridge and keep fridge closed."
+}

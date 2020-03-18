@@ -1,0 +1,26 @@
+{
+	"goals":[
+		{
+			"object": "apple",
+			"target": "box",
+			"state": "",
+			"position": "",
+			"tolerance": 0
+		},
+		{
+			"object": "orange",
+			"target": "box",
+			"state": "",
+			"position": "",
+			"tolerance": 0
+		},
+		{
+			"object": "banana",
+			"target": "box",
+			"state": "",
+			"position": "",
+			"tolerance": 0
+		}
+	],
+	"text": "Put fruits in box."
+}
