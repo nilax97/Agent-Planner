@@ -1,6 +1,4 @@
-# Agent-Planner
-Creating a symbolic planner for an agent (mobile manipulator) capable of interacting with objects in a virtual environment.
-
+# COL864: Homework II
 ## Overview
 * This exercise concerns writing a symbolic planner for an agent (mobile manipulator) capable of interacting with objects in a virtual environment. 
 * The robot in the virtual environment is capable of performing a set of actions (move to, pick, place on, push to, open/close) which are described below. 
@@ -15,7 +13,7 @@ of interest.
 * The simulation environment is based on PyBullet physics simulator with a mobile manipulator (a robot called Husky with a manipulator arm. 
 * The simulator consists of 10 world scenes and 5 different goals. A screenshot of the simulator appears below:
 <div align="center">
-<img src="screenshot.png" width="700" align="middle">
+<img src="https://github.com/shreshthtuli/COL864-Task-Planning/blob/master/screenshot.png" width="700" align="middle">
 </div>
 Note: All actions are symbolic and robot position is discretized by proximity to objects.
 
@@ -55,6 +53,7 @@ To run a plan with the given API and visualize on the simulator run the followin
 ```
 python planner.py --world jsons/home_worlds/world_home0.json --goal jsons/home_goals/goal0.json
 ```
+Note: If you have a system that does not have a dedicated GPU or want to run on server or HPC with no graphics capabilities, you can add the option *--display tp* to the above command. This will save a sequence of third person perspective images in the logs folder.
 
 ## Sample state,action sequence
 

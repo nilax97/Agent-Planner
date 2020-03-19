@@ -11,8 +11,7 @@ import math
 import operator 
 import json
 from scipy.spatial import distance
-# import matplotlib.pyplot as plt
-# import matplotlib.animation as animation
+import matplotlib.pyplot as plt
 import time 
 import numpy as np
 import os
@@ -26,8 +25,8 @@ cameraPos = [0, 0, 5]
 roll = -30
 upAxisIndex = 2
 camDistance = 5
-pixelWidth = 1600
-pixelHeight = 1200
+pixelWidth = 400
+pixelHeight = 300
 aspect = pixelWidth / pixelHeight
 nearPlane = 0.01
 farPlane = 100
