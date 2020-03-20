@@ -43,6 +43,8 @@ light = p.connect(p.GUI)
 
 # Add input arguments
 args = initParser()
+print(args)
+exit()
 speed = args.speed
 
 if (args.logging or args.display):
