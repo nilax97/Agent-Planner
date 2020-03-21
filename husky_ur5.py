@@ -15,6 +15,8 @@ from operator import sub
 import math
 import pickle
 
+from argparse import Namespace
+
 object_file = "jsons/objects.json"
 wings_file = "jsons/wings.json"
 tolerance_file = "jsons/tolerance.json"
@@ -45,6 +47,7 @@ light = p.connect(p.GUI)
 
 # UNCOMMENT
 # args = initParser()
+args = Namespace(display='tp', goal='jsons/home_goals/goal0.json', input='jsons/input.json', logging=False, speed=1.0, world='jsons/home_worlds/world_home0.json')
 speed = args.speed
 
 if (args.logging or args.display):
