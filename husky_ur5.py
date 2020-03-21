@@ -42,9 +42,9 @@ stick = False
 light = p.connect(p.GUI)
 
 # Add input arguments
-args = initParser()
-print(args)
-exit()
+
+# UNCOMMENT
+# args = initParser()
 speed = args.speed
 
 if (args.logging or args.display):
