@@ -43,7 +43,7 @@ def convertActions(inp):
                 ["checkClose", args[0]],
                 ["changeWing", "up"],
                 ["constrain", args[0], "ur5"],
-                ["moveToXY", args[1]],
+                ["moveTo", args[1]],
                 ["removeConstraint", args[0], "ur5"]
             ])
 
