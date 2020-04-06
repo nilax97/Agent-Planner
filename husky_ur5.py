@@ -44,10 +44,8 @@ stick = False
 light = p.connect(p.GUI)
 
 # Add input arguments
-
-# UNCOMMENT
-# args = initParser()
-args = Namespace(display='tp', goal='jsons/home_goals/goal0.json', input='jsons/input.json', logging=False, speed=1.0, world='jsons/home_worlds/world_home0.json')
+args = initParser()
+# args = Namespace(display='tp', goal='jsons/home_goals/goal3.json', input='jsons/input.json', logging=False, speed=1.0, world='jsons/home_worlds/world_home4.json')
 speed = args.speed
 
 if (args.logging or args.display):
@@ -257,7 +255,7 @@ def executeHelper(actions, goal_file=None):
               if (actions[action_index][1] in enclosures
                   and isClosed(actions[action_index][1], states, id_lookup)):
                   raise Exception("Enclosure is closed, can not place object inside")
-              if not actions[action_index][1] in ['table', 'table2', 'box', 'fridge', 'tray', 'tray2']:
+              if not actions[action_index][1] in ['table', 'table2', 'box', 'fridge', 'tray', 'tray2', 'cupboard']:
                   raise Exception('Target object should be a surface or enclosure')
               if ("mop" in grabbed 
                   or "sponge" in grabbed 

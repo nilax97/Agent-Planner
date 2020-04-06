@@ -306,7 +306,7 @@ def checkInside(constraints, states, id_lookup, obj, enclosures):
             (x2, y2, z2) = p.getBasePositionAndOrientation(id_lookup[enclosure])[0]
             (l, w, h) = 1.0027969752543706, 0.5047863562602029, 1.5023976731489332
             inside = abs(x2-x1) < l and abs(y2-y1) < 1.5*w and abs(z1-z2) < h
-            print(l, w, h, abs(x2-x1), abs(y2-y1), abs(z1-z2))
+            # print(l, w, h, abs(x2-x1), abs(y2-y1), abs(z1-z2))
             tgt = findConstraintTo(obj, constraints)
             while not (tgt == "" or tgt == enclosure):
                 tgt = findConstraintTo(tgt, constraints)        
@@ -411,14 +411,15 @@ def globalIDLookup(objs, objects):
 def checkNear(obj1, obj2, metrics, dist):
     (x1, y1, z1) = metrics[obj1][0]
     (x2, y2, z2) = metrics[obj2][0]
-    return abs(distance.euclidean((x1, y1, z1), (x2, y2, z2))) < dist
+    return abs(distance.euclidean((x1, y1, z1), (x2, y2, z2))) < dist + 0.1
 
 def checkIn(obj1, obj2, obj1G, obj2G, metrics, constraints):
     if 'Container' in obj2G['properties']:
+        if obj1 in ['cupboard', 'fridge']: return False
         (x1, y1, z1) = metrics[obj1][0]
         (x2, y2, z2) = metrics[obj2][0]
         (l, w, h) = obj2G['size']
-        inside = abs(x2-x1) < l and abs(y2-y1) < 1.5*w and abs(z1-z2) < h
+        inside = abs(x2-x1) < l and abs(y2-y1) < 1.5*w and abs(z1-z2) < h and z1 >= 0.1
         tgt = findConstraintTo(obj1, constraints)
         while not (tgt == "" or tgt == obj2):
             tgt = findConstraintTo(tgt, constraints)        
@@ -430,7 +431,7 @@ def checkOn(obj1, obj2, obj1G, obj2G, metrics, constraints):
         (x1, y1, z1) = metrics[obj1][0]
         (x2, y2, z2) = metrics[obj2][0]
         (l, w, h) = obj2G['size']
-        on = abs(x2-x1) < l + 0.2 and abs(y2-y1) < w + 0.2 and z1 > z2 + 0.75*h
+        on = abs(x2-x1) < 0.5*l + 0.2 and abs(y2-y1) < w + 0.2 and z1 > z2 + 0.75*h
         tgt = findConstraintTo(obj1, constraints)
         while not (tgt == "" or tgt == obj2):
             tgt = findConstraintTo(tgt, constraints)        
