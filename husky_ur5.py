@@ -44,8 +44,8 @@ stick = False
 light = p.connect(p.GUI)
 
 # Add input arguments
-args = initParser()
-# args = Namespace(display='tp', goal='jsons/home_goals/goal3.json', input='jsons/input.json', logging=False, speed=1.0, world='jsons/home_worlds/world_home4.json')
+# args = initParser()
+args = Namespace(display='tp', goal='jsons/home_goals/goal4.json', input='part5', logging=False, speed=1.0, world='jsons/home_worlds/world_home3.json')
 speed = args.speed
 
 if (args.logging or args.display):

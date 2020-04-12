@@ -1,0 +1,3647 @@
+pybullet build time: Aug 20 2019 14:36:37
+starting thread 0
+started testThreads thread 0 with threadHandle 0000000000000230
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+Version = 4.6.0 NVIDIA 442.50
+Vendor = NVIDIA Corporation
+Renderer = GeForce GTX 1070/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+starting thread 0
+started MotionThreads thread 0 with threadHandle 000000000000066C
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: base_footprint
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: imu_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: top_plate_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: user_rail_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: front_bumper_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: rear_bumper_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: ee_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_adapter_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_base_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_left_knuckle_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_right_knuckle_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_left_finger_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_right_finger_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_left_inner_knuckle_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_right_inner_knuckle_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_left_finger_tip_link
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: robotiq_85_right_finger_tip_link
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,1127]:
+
+b3Printf: models/urdf/: cannot extract anything useful from mesh 'models/urdf/../meshes/robotiq_c2/visual/robotiq_85_gripper_joint_3_L.dae'
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.cpp,551]:
+
+b3Printf: issue extracting mesh from COLLADA/STL file models/urdf/../meshes/robotiq_c2/visual/robotiq_85_gripper_joint_3_L.dae
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,1127]:
+
+b3Printf: models/urdf/: cannot extract anything useful from mesh 'models/urdf/../meshes/robotiq_c2/visual/robotiq_85_gripper_joint_3_R.dae'
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,342]:
+
+b3Printf: DAE exceeds number of visual shapes (512/512)
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp,441]:
+
+b3Printf: geom not found
+
+b3Printf: b3Warning[examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.cpp,551]:
+
+b3Printf: issue efloor 0
+walls 1
+ledge 2
+door 3
+fridge_back 4
+fridge 5
+cupboard_back 6
+cupboard 7
+husky 8
+ur5 9
+table 10
+table2 11
+couch 12
+big-tray 13
+book 14
+paper 15
+paper2 16
+cube_gray 17
+cube_green 18
+cube_red 19
+tray 20
+tray2 21
+light 22
+box 23
+apple 24
+orange 25
+banana 26
+chair 27
+ball 28
+stick 29
+dumpster 30
+milk 31
+shelf 32
+The world file is .\jsons\home_worlds\world_home0.json
+{'floor': 0, 'walls': 1, 'ledge': 2, 'door': 3, 'fridge_back': 4, 'fridge': 5, 'cupboard_back': 6, 'cupboard': 7, 'husky': 8, 'ur5': 9, 'table': 10, 'table2': 11, 'couch': 12, 'big-tray': 13, 'book': 14, 'paper': 15, 'paper2': 16, 'cube_gray': 17, 'cube_green': 18, 'cube_red': 19, 'tray': 20, 'tray2': 21, 'light': 22, 'box': 23, 'apple': 24, 'orange': 25, 'banana': 26, 'chair': 27, 'ball': 28, 'stick': 29, 'dumpster': 30, 'milk': 31, 'shelf': 32}
+{}
+{}
+{'grabbed': '', 'fridge': 'Close', 'cupboard': 'Close', 'inside': [], 'on': [('apple', 'table2'), ('orange', 'table2'), ('banana', 'table2'), ('tray', 'table'), ('tray2', 'table2')], 'close': []}
+0
+{}
+{}
+30.156781911849976
+{'actions': [{'name': 'moveTo', 'args': ['apple']}, {'name': 'pick', 'args': ['apple']}, {'name': 'moveTo', 'args': ['box']}, {'name': 'drop', 'args': ['box']}, {'name': 'moveTo', 'args': ['orange']}, {'name': 'pick', 'args': ['orange']}, {'name': 'moveTo', 'args': ['box']}, {'name': 'drop', 'args': ['box']}, {'name': 'moveTo', 'args': ['banana']}, {'name': 'pick', 'args': ['banana']}, {'name': 'moveTo', 'args': ['box']}, {'name': 'drop', 'args': ['box']}]}
+Action moveTo ['apple']
+Action pick ['apple']
+Action moveTo ['box']
+Action drop ['box']
+Action moveTo ['orange']
+Action pick ['orange']
+Action moveTo ['box']
+Action drop ['box']
+Action moveTo ['banana']
+Action pick ['banana']
+Action moveTo ['box']
+Action drop ['box']
+[['moveTo', 'apple'], ['saveBulletState'], ['checkClose', 'apple'], ['changeWing', 'up'], ['constrain', 'apple', 'ur5'], ['saveBulletState'], ['moveTo', 'box'], ['saveBulletState'], ['checkClose', 'box'], ['drop', 'box'], ['saveBulletState'], ['moveTo', 'orange'], ['saveBulletState'], ['checkClose', 'orange'], ['changeWing', 'up'], ['constrain', 'orange', 'ur5'], ['saveBulletState'], ['moveTo', 'box'], ['saveBulletState'], ['checkClose', 'box'], ['drop', 'box'], ['saveBulletState'], ['moveTo', 'banana'], ['saveBulletState'], ['checkClose', 'banana'], ['changeWing', 'up'], ['constrain', 'banana', 'ur5'], ['saveBulletState'], ['moveTo', 'box'], ['saveBulletState'], ['checkClose', 'box'], ['drop', 'box'], ['saveBulletState']]
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'apple']
+Executing action:  ['changeWing', 'up']
+Executing action:  ['constrain', 'apple', 'ur5']
+New constraint= apple  on  ur5
+Executing action:  ['saveBulletState']
+Executing action:  ['moveTo', 'box']
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'box']
+Executing action:  ['drop', 'box']
+New constraint= apple  on  box
+Executing action:  ['saveBulletState']
+Executing action:  ['moveTo', 'orange']
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'orange']
+Executing action:  ['changeWing', 'up']
+Executing action:  ['constrain', 'orange', 'ur5']
+New constraint= orange  on  ur5
+Executing action:  ['saveBulletState']
+Executing action:  ['moveTo', 'box']
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'box']
+Executing action:  ['drop', 'box']
+New constraint= orange  on  box
+Executing action:  ['saveBulletState']
+Executing action:  ['moveTo', 'banana']
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'banana']
+Executing action:  ['changeWing', 'up']
+Executing action:  ['constrain', 'banana', 'ur5']
+New constraint= banana  on  ur5
+Executing action:  ['saveBulletState']
+Executing action:  ['moveTo', 'box']
+Executing action:  ['saveBulletState']
+Executing action:  ['checkClose', 'box']
+Executing action:  ['drop', 'box']
+New constraint= banana  on  box
+Executing action:  ['saveBulletState']
+{'apple': ('box', 3), 'orange': ('box', 5), 'banana': ('box', 7)} [{'object': 'apple', 'target': 'box', 'state': '', 'position': '', 'tolerance': 0}, {'object': 'orange', 'target': 'box', 'state': '', 'position': '', 'tolerance': 0}, {'object': 'banana', 'target': 'box', 'state': '', 'position': '', 'tolerance': 0}]
+{'apple': ('box', 3), 'orange': ('box', 5), 'banana': ('box', 7)}
+xtracting mesh from COLLADA/STL file models/urdf/../meshes/robotiq_c2/visual/robotiq_85_gripper_joint_3_R.dae
+
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/paper/paper.jpg]
+
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/paper/paper.jpg]
+
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/paper/paper.jpg]
+
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/paper/paper.jpg]
+
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: cube-base
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frame
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: cube-base
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/apple/Apple.jpg]
+
+b3Printf: b3Warning[examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp,174]:
+
+b3Printf: Unsupported texture image format [./models/meshes/apple/Apple.jpg]
+
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 with handle 000000000000066C exiting
+Thread TERMINATED
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 with handle 0000000000000230 exiting
+Thread TERMINATED

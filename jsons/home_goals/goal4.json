@@ -1,0 +1,40 @@
+{
+	"goals":[
+		{
+			"object": "apple",
+			"target": "fridge",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "orange",
+			"target": "cupboard",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "banana",
+			"target": "box",
+			"state": "",
+			"position": "",
+			"tolerance": 1.5
+		},
+		{
+			"object": "fridge",
+			"target": "",
+			"state": "close",
+			"position": "",
+			"tolerance": 0
+		},
+		{
+			"object": "cupboard",
+			"target": "",
+			"state": "close",
+			"position": "",
+			"tolerance": 0
+		}
+	],
+	"text": "Complex goal for testing."
+}

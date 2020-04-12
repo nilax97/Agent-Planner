@@ -1,0 +1,12 @@
+
+
+#### Checking forward search ####
+
+
+Initial State: {'grabbed': '', 'fridge': 'Close', 'cupboard': 'Close', 'inside': [], 'on': [('apple', 'table2'), ('orange', 'table2'), ('banana', 'table2'), ('tray', 'table'), ('tray2', 'table2')], 'close': []}
+
+Plan
+[['moveTo', 'fridge'], ['changeState', 'fridge', 'open'], ['moveTo', 'apple'], ['pick', 'apple'], ['moveTo', 'fridge'], ['drop', 'fridge']]
+
+Final State
+{'grabbed': '', 'fridge': 'Open', 'cupboard': 'Close', 'inside': [('apple', 'fridge')], 'on': [('apple', 'fridge'), ('orange', 'table2'), ('banana', 'table2'), ('tray', 'table'), ('tray2', 'table2')], 'close': ['fridge']}

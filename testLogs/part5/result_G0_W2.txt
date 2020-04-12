@@ -1,0 +1,17 @@
+
+
+#### Checking accelerated search ####
+
+
+Initial State: {'grabbed': '', 'fridge': 'Close', 'cupboard': 'Close', 'inside': [], 'on': [('apple', 'table2'), ('orange', 'table'), ('tray', 'table'), ('tray2', 'table2')], 'close': []}
+
+Plan
+[['moveTo', 'apple'], ['pick', 'apple'], ['moveTo', 'table'], ['drop', 'table']]
+Plan length: 4
+Time: 0.007978439331054688
+
+Final State: {'grabbed': '', 'fridge': 'Close', 'cupboard': 'Close', 'inside': [], 'on': [('apple', 'table'), ('orange', 'table'), ('tray', 'table'), ('tray2', 'table2')], 'close': ['table']}
+
+Symbolic Result: True
+
+Execution Result: True
