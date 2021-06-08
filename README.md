@@ -72,12 +72,12 @@ The goal of this exercise is to write a symbolic planner enabling the agent to p
 4. Please improve the planner to synthesize feasible plans in a short amount of time. For example, return a feasible plan under 60 seconds. You may explore techniques for accelerating search ( e.g., via heuristics) building off material in the class and exploring techniques from your reading. There is extra credit for this part of the homework. 
 
 You may review class notes and the Artificial Intelligence: A Modern Approach (AIMA) Chapter on Classical Planning for this exercise.  
-<!-- You are expected to build a planner for robots in diverse environments with complex interactions. You need to develop an approximate environment model which is able to change the state corresponding to an input action with action feasibility checking. The environment model needs to be implemented in *changeState()* and *checkAction()* functions in *environment.py* file. A standard goal checking function has been implemented as *checkGoal()* function in the same file. The planner should be implemented in the *getPlan()* function in *planner.py* file.
+ You are expected to build a planner for robots in diverse environments with complex interactions. You need to develop an approximate environment model which is able to change the state corresponding to an input action with action feasibility checking. The environment model needs to be implemented in *changeState()* and *checkAction()* functions in *environment.py* file. A standard goal checking function has been implemented as *checkGoal()* function in the same file. The planner should be implemented in the *getPlan()* function in *planner.py* file.
 
 The default goal in the given code is to put all fruits in the fridge (and keep the fridge closed).
 
 Hint: You can use different search techniques like BFS, DFS, A*, or Reinforcement learning based approaches or even model it as Constrained Satisfaction Problem
--->
+
 
 ## Evaluation and tentative marking scheme
 1. Correct implementation of *changeState()* and *checkAction()* functions for different types of actions and the ability to handle 
@@ -109,9 +109,18 @@ Note: The grading policy is subject to change without notice.
 -->
 
 
-## Developer
-This exercise is based on the simulation tool developed as part of an undergraduate project at Dept. of CSE, IITD led by 
-[Shreshth Tuli](www.github.com/shreshthtuli).
-<br>
-Shreshth will be the guest teaching assistant for this homework. He is reachable at shreshth.cs116@cse.iitd.ac.in. 
+## Author
 
+**Nilaksh Agarwal**
+
+* Website: [nilax97.github.io](https://nilax97.github.io/)
+* Github: [@nilax97](https://github.com/nilax97)
+* LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
+
+## License
+ 
+MIT License
+
+Copyright (c) 2021 Nilaksh Agarwal
+
+***
